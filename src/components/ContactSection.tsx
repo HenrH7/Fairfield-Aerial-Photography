@@ -22,7 +22,7 @@ const ContactSection: React.FC = () => {
             <div className="contact-info">
                 <p>If you have any questions, feel free to reach out to us at:</p>
                 <p>Email: info@example.com</p>
-                <p>Phone: (123) 456-7890</p>
+                <p>Phone: (203) 216-4586</p>
             </div>
         </section>
     );
