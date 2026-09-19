@@ -43,13 +43,8 @@ const Portfolio = () => {
                 <div className="pricing-grid">
                     <article className="pricing-card">
                         <p className="pricing-label">Still imagery</p>
-                        <h3>$350</h3>
+                        <h3>$250</h3>
                         <p>Up to one hour on site, edited aerial photographs, and a private online gallery.</p>
-                    </article>
-                    <article className="pricing-card pricing-card-featured">
-                        <p className="pricing-label">Property story</p>
-                        <h3>$650</h3>
-                        <p>Expanded coverage for listings, venues, and land with a curated set of final images.</p>
                     </article>
                     <article className="pricing-card">
                         <p className="pricing-label">Survey & progress</p>
