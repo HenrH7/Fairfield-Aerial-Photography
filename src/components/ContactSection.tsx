@@ -18,6 +18,7 @@ const ContactSection: React.FC = () => {
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label>
+                    <p>Please tell me about the location of the site, the type of imagery you're looking for, and any obstacles on the property that the drone will need to avoid</p>
                     <textarea id="message" name="message" required></textarea>
                 </div>
                 <button type="submit">Send Message</button>

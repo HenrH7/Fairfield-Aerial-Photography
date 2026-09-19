@@ -288,6 +288,14 @@ img {
     font: inherit;
 }
 
+.contact-section p {
+    margin: 0 0 6px;
+    color: #b7c0bb;
+    font-family: Arial, sans-serif;
+    font-size: 0.7rem;
+    line-height: 1.35;
+}
+
 .contact-section textarea {
     min-height: 130px;
     resize: vertical;
