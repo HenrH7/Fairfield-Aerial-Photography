@@ -2,6 +2,21 @@ import React from 'react';
 import PortfolioGallery from '../components/PortfolioGallery';
 import ContactSection from '../components/ContactSection';
 
+const WorkVideoFrame: React.FC = () => {
+    return (
+        <div className="work-video-frame">
+            <video
+                className="work-video"
+                src="/videos/zoom.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+            />
+        </div>
+    );
+};
+
 const Portfolio = () => {
     return (
         <div className="portfolio-page">
@@ -15,12 +30,12 @@ const Portfolio = () => {
 
             <section className="about-section content-section">
                 <div className="section-heading">
-                    <p className="eyebrow">The work</p>
+                    <p className="eyebrow">Services</p>
                 </div>
                 <div className="section-copy">
-                    <p>Thoughtful aerial imagery for properties, places, and projects across Fairfield County and beyond.</p>
-                    <p>Every flight is planned around the story you need to tell, from a clear site overview to a frame that makes someone stop and look.</p>
+                    <p>We offer aerial imagery, for properties, places, and projects across Fairfield County and beyond.</p>
                 </div>
+                <WorkVideoFrame />
             </section>
 
             <section className="bio-section content-section">
@@ -33,23 +48,6 @@ const Portfolio = () => {
                 </div>
             </section>
 
-            <section className="pricing-section content-section">
-                <div className="section-heading">
-                    <p className="eyebrow">Pricing</p>
-                </div>
-                <div className="pricing-grid">
-                    <article className="pricing-card">
-                        <p className="pricing-label">Still imagery</p>
-                        <h3>$250</h3>
-                        <p>per property, edited aerial photographs and videos</p>
-                    </article>
-                    <article className="pricing-card">
-                        <p className="pricing-label">Survey & progress</p>
-                        <h3>Custom</h3>
-                        <p>Repeat site visits, mapping, and documentation planned around your project timeline.</p>
-                    </article>
-                </div>
-            </section>
 
             <PortfolioGallery />
             <ContactSection />
