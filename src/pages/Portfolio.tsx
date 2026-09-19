@@ -16,7 +16,6 @@ const Portfolio = () => {
             <section className="about-section content-section">
                 <div className="section-heading">
                     <p className="eyebrow">The work</p>
-                    <h2>Perspective with a purpose.</h2>
                 </div>
                 <div className="section-copy">
                     <p>Thoughtful aerial imagery for properties, places, and projects across Fairfield County and beyond.</p>
@@ -27,7 +26,6 @@ const Portfolio = () => {
             <section className="bio-section content-section">
                 <div className="section-heading">
                     <p className="eyebrow">About the pilot</p>
-                    <h2>Local knowledge. Careful flights.</h2>
                 </div>
                 <div className="section-copy">
                     <p>Based in Fairfield, I combine a photographer's eye with a survey-minded approach to create aerial work that is both striking and useful.</p>
@@ -37,14 +35,13 @@ const Portfolio = () => {
 
             <section className="pricing-section content-section">
                 <div className="section-heading">
-                    <p className="eyebrow">Starting points</p>
-                    <h2>Simple pricing, tailored flights.</h2>
+                    <p className="eyebrow">Pricing</p>
                 </div>
                 <div className="pricing-grid">
                     <article className="pricing-card">
                         <p className="pricing-label">Still imagery</p>
                         <h3>$250</h3>
-                        <p>Up to one hour on site, edited aerial photographs, and a private online gallery.</p>
+                        <p>per property, edited aerial photographs and videos</p>
                     </article>
                     <article className="pricing-card">
                         <p className="pricing-label">Survey & progress</p>

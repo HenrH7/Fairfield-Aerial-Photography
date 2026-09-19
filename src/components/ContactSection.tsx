@@ -4,7 +4,10 @@ const ContactSection: React.FC = () => {
     return (
         <section className="contact-section">
             <h2>Contact Us</h2>
-            <form>
+            <form
+                action="https://formspree.io/f/xgavvgqz"
+                method="POST"
+                >
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type="text" id="name" name="name" required />

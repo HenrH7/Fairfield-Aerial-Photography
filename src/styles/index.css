@@ -57,7 +57,7 @@ img {
     margin: 0 0 18px;
     color: #d1a86d;
     font-family: Arial, sans-serif;
-    font-size: 0.72rem;
+    font-size: 1rem;
     font-weight: 700;
     letter-spacing: 0.16em;
     text-transform: uppercase;
@@ -85,13 +85,15 @@ img {
 }
 
 .content-section {
-    display: grid;
-    grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
-    gap: 40px;
+    display: block;
     max-width: 1280px;
     margin: 0 auto 112px;
     padding-top: 32px;
     border-top: 1px solid #354641;
+}
+
+.section-heading {
+    margin-bottom: 24px;
 }
 
 .section-heading h2 {
@@ -342,8 +344,6 @@ img {
     }
 
     .content-section {
-        grid-template-columns: 1fr;
-        gap: 28px;
         margin-bottom: 72px;
     }
 
